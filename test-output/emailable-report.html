@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">suite1</th></tr>
+<tr><td><a href="#t0">test1</a></td><td class="num">0</td><td class="num attn">4</td><td class="num attn">2</td><td class="num">58,365</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.first.testcases.LoginTest</td><td><a href="#m0">loginTest01</a></td><td rowspan="1">1527182700847</td><td rowspan="1">4727</td></tr><tr class="failedeven"><td><a href="#m1">loginTest02</a></td><td rowspan="1">1527182728322</td><td rowspan="1">2063</td></tr><tr><th colspan="4">test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.first.testcases.LoginTest</td><td><a href="#m2">loginTest01</a></td><td rowspan="2">1527182678917</td><td rowspan="2">5045</td></tr><tr class="skippedeven"><td><a href="#m3">loginTest01</a></td></tr><tr class="skippedeven"><td><a href="#m4">loginTest02</a></td><td rowspan="2">1527182719984</td><td rowspan="2">2525</td></tr><tr class="skippedeven"><td><a href="#m5">loginTest02</a></td></tr></tbody>
+</table>
+<h2>test1</h2><h3 id="m0">com.first.testcases.LoginTest#loginTest01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:25:00] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:02] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:03] [INFO] com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:03] [INFO] com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:03] [INFO] com.first.uiframework.DriverUtils: 点击元素 登录按钮</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:05] [INFO] com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:25:05] [ERROR] com.first.utils.TestNGListener: 测试用例执行失败</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 登录测试失败 expected [true] but found [admin]
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:44)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.first.testcases.LoginTest#loginTest02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:25:28] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:29] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:25:30] [ERROR] com.first.utils.TestNGListener: 测试用例执行失败</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;LAPTOP-D4Q6617H&apos;, ip: &apos;192.168.242.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:127)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.first.uiframework.DriverUtils.openWeb(DriverUtils.java:29)
+	at com.first.pages.productpages.LoginPage.&lt;init&gt;(LoginPage.java:19)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:22)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:30)
+	at com.first.testcases.LoginTest.loginTest02(LoginTest.java:51)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.first.testcases.LoginTest#loginTest01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:24:38] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:40] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:41] [INFO] com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:41] [INFO] com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:41] [INFO] com.first.uiframework.DriverUtils: 点击元素 登录按钮</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:43] [INFO] com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:43] [INFO] com.first.utils.TestngRetry: Running retry for 'loginTest01' on class com.first.utils.TestngRetry Retrying 1 times</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:24:43] [ERROR] com.first.utils.TestNGListener: 测试用例被跳过</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 登录测试失败 expected [true] but found [admin]
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:44)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.first.testcases.LoginTest#loginTest01</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:24:49] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:51] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:52] [INFO] com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:52] [INFO] com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:53] [INFO] com.first.uiframework.DriverUtils: 点击元素 登录按钮</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:55] [INFO] com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:24:55] [INFO] com.first.utils.TestngRetry: Running retry for 'loginTest01' on class com.first.utils.TestngRetry Retrying 2 times</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:24:55] [ERROR] com.first.utils.TestNGListener: 测试用例被跳过</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 登录测试失败 expected [true] but found [admin]
+	at com.first.testcases.LoginTest.loginTest01(LoginTest.java:44)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.first.testcases.LoginTest#loginTest02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:25:19] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:21] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:22] [INFO] com.first.utils.TestngRetry: Running retry for 'loginTest02' on class com.first.utils.TestngRetry Retrying 2 times</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:25:22] [ERROR] com.first.utils.TestNGListener: 测试用例被跳过</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;LAPTOP-D4Q6617H&apos;, ip: &apos;192.168.242.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:127)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.first.uiframework.DriverUtils.openWeb(DriverUtils.java:29)
+	at com.first.pages.productpages.LoginPage.&lt;init&gt;(LoginPage.java:19)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:22)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:30)
+	at com.first.testcases.LoginTest.loginTest02(LoginTest.java:51)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.first.testcases.LoginTest#loginTest02</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><span style="color:#16A05D"><b>[2018-05-25 01:25:11] [INFO] com.first.utils.TestNGListener: 测试用例开始执行</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:13] [INFO] com.first.uiframework.DriverUtils: 打开网址</b></span><br /><br/><span style="color:#16A05D"><b>[2018-05-25 01:25:14] [INFO] com.first.utils.TestngRetry: Running retry for 'loginTest02' on class com.first.utils.TestngRetry Retrying 1 times</b></span><br /><br/><span style="color:#FF0000"><b>[2018-05-25 01:25:14] [ERROR] com.first.utils.TestNGListener: 测试用例被跳过</b></span><br /></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;LAPTOP-D4Q6617H&apos;, ip: &apos;192.168.242.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:127)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.first.uiframework.DriverUtils.openWeb(DriverUtils.java:29)
+	at com.first.pages.productpages.LoginPage.&lt;init&gt;(LoginPage.java:19)
+	at com.first.actions.LoginOperate.LoginSuess(LoginOperate.java:22)
+	at com.first.actions.LoginOperate.getLoginName(LoginOperate.java:30)
+	at com.first.testcases.LoginTest.loginTest02(LoginTest.java:51)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

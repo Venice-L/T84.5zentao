@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="主页面"><!-- 主页面 -->
+    <locator name="用户菜单下拉框" type="css" value="div#userMenu" timeout="5">userMenu</locator>  
+</page>

@@ -1,0 +1,38 @@
+2018-05-25 01:24:35.719 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试初始化
+2018-05-25 01:24:38.923 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:24:40.672 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:24:41.725 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin
+2018-05-25 01:24:41.827 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912
+2018-05-25 01:24:41.914 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 点击元素 登录按钮
+2018-05-25 01:24:43.938 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值
+2018-05-25 01:24:43.963 INFO  com.first.utils.Log 23 info - com.first.utils.TestngRetry: Running retry for 'loginTest01' on class com.first.utils.TestngRetry Retrying 1 times
+2018-05-25 01:24:43.965 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例被跳过
+2018-05-25 01:24:49.796 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:24:51.788 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:24:52.830 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin
+2018-05-25 01:24:52.916 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912
+2018-05-25 01:24:53.012 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 点击元素 登录按钮
+2018-05-25 01:24:55.032 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值
+2018-05-25 01:24:55.053 INFO  com.first.utils.Log 23 info - com.first.utils.TestngRetry: Running retry for 'loginTest01' on class com.first.utils.TestngRetry Retrying 2 times
+2018-05-25 01:24:55.055 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例被跳过
+2018-05-25 01:25:00.847 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:25:02.650 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:25:03.331 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 用户名输入框 输入：admin
+2018-05-25 01:25:03.414 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 在元素 密码输入框 输入：Lv931704912
+2018-05-25 01:25:03.519 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 点击元素 登录按钮
+2018-05-25 01:25:05.546 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 获取元素： 用户菜单下拉框文本值
+2018-05-25 01:25:05.575 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例执行失败
+2018-05-25 01:25:11.634 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:25:13.249 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:25:14.214 INFO  com.first.utils.Log 23 info - com.first.utils.TestngRetry: Running retry for 'loginTest02' on class com.first.utils.TestngRetry Retrying 1 times
+2018-05-25 01:25:14.217 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例被跳过
+2018-05-25 01:25:19.985 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:25:21.713 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:25:22.509 INFO  com.first.utils.Log 23 info - com.first.utils.TestngRetry: Running retry for 'loginTest02' on class com.first.utils.TestngRetry Retrying 2 times
+2018-05-25 01:25:22.511 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例被跳过
+2018-05-25 01:25:28.322 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例开始执行
+2018-05-25 01:25:29.770 INFO  com.first.utils.Log 23 info - com.first.uiframework.DriverUtils: 打开网址
+2018-05-25 01:25:30.386 ERROR com.first.utils.Log 37 error - com.first.utils.TestNGListener: 测试用例执行失败
+2018-05-25 01:25:34.044 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 测试用例执行完成
+2018-05-25 01:25:34.045 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 失败的测试用例：loginTest02
+2018-05-25 01:25:34.045 INFO  com.first.utils.Log 23 info - com.first.utils.TestNGListener: 失败的测试用例：loginTest01
